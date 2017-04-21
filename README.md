@@ -1,10 +1,10 @@
-This is a short step-by-step tutorial on collaborative filtering based recommendation systems on <a href="<a href="http://jmcauley.ucsd.edu/data/amazon/"">Amazon product data</a>. Detailed instructions are included in the Jupyter Notebook, so feel free to check it out. Below, I included materials I found super useful to learn about recommendation systems & Apache Spark (which is used to paralelize alternative least squares at the end of the notebook).
+This is a short step-by-step tutorial on collaborative filtering based recommendation systems on <a href="http://jmcauley.ucsd.edu/data/amazon/">Amazon product data </a>. Detailed instructions are included in the Jupyter Notebook, so feel free to check it out. Below, I included materials I found super useful to learn about recommendation systems & Apache Spark (which is used to paralelize alternative least squares at the end of the notebook).
 
 For instructional purposes, the code is not optimized for speed. 
 
 ![recommendation_systems](recommendation_systems.jpg)
 
-source: _"Recommendation systems: Principles, methods and evaluation"_ by Isinkayea, Folajimib and Ojokohc, http://doi.org/10.1016/j.eij.2015.06.005
+source of the image: _"Recommendation systems: Principles, methods and evaluation"_ by Isinkayea, Folajimib and Ojokohc, http://doi.org/10.1016/j.eij.2015.06.005
 
 # Resources:
 
