@@ -1,6 +1,12 @@
+This is a short step-by-step tutorial on collaborative filtering based recommendation systems on <a href="<a href="http://jmcauley.ucsd.edu/data/amazon/"">Amazon product data</a>. Detailed instructions are included in the Jupyter Notebook, so feel free to check it out. Below, I included materials I found super useful to learn about recommendation systems & Apache Spark (which is used to paralelize alternative least squares at the end of the notebook).
+
+For instructional purposes, the code is not optimized for speed. 
+
 ![recommendation_systems](recommendation_systems.jpg)
 
-# Resources used for this repo:
+source: _"Recommendation systems: Principles, methods and evaluation"_ by Isinkayea, Folajimib and Ojokohc, http://doi.org/10.1016/j.eij.2015.06.005
+
+# Resources:
 
 ## Data:
 <a href="http://jmcauley.ucsd.edu/data/amazon/">Amazon's data set</a> contains reviews and metadata spanning from 1996 to 2014 and is an excellent source if you want to practice recommendation algorithms. As you might suspect, it's huge, but Julian McAuley from UCSD also shared smaller subsets. I decided to use one of the 5-core datasets which contain entries from users who reviewed at least 5 products and products which were reviewed at least 5 times, which drastically limits the size of it allowing to run costly algorithms (such as ALS) on a personal laptop within a reasonable time (few minutes).
