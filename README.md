@@ -1,5 +1,4 @@
-#
-
+![recommendation_systems](recommendation_systems.jpg)
 
 # Resources used for this repo:
 
@@ -7,7 +6,9 @@
 <a href="http://jmcauley.ucsd.edu/data/amazon/">Amazon's data set</a> contains reviews and metadata spanning from 1996 to 2014 and is an excellent source if you want to practice recommendation algorithms. As you might suspect, it's huge, but Julian McAuley from UCSD also shared smaller subsets. I decided to use one of the 5-core datasets which contain entries from users who reviewed at least 5 products and products which were reviewed at least 5 times, which drastically limits the size of it allowing to run costly algorithms (such as ALS) on a personal laptop within a reasonable time (few minutes).
 
 
-## Readings / blog posts about collaborative filtering and Alternative Least Squares: 
+## Readings:
+
+Blog posts about collaborative filtering and Alternative Least Squares: 
 
 Ethan Rosenthal's excellent blog post about <a href="http://blog.ethanrosenthal.com/2015/11/02/intro-to-collaborative-filtering/">collaborative filtering</a> and <a href="http://blog.ethanrosenthal.com/2016/01/09/explicit-matrix-factorization-sgd-als/">matrix factorization</a>.
 
@@ -35,7 +36,7 @@ and to lanch Jupyter Notebook with Spark:
 </pre>
 
 Then, Jupyter Notebook will run on localhost:8888, your Spark cluster UI on localhost:8080 and Spark Jobs on localhost:4040 (type these in your browser). 
-I got those tips from Austin Ouyang who wrote a great step-by-step <a href="http://blog.insightdatalabs.com/jupyter-on-apache-spark-step-by-step/">intro</a> and gave a great workshop at Insight Labs.
+I got those tips from Austin Ouyang who wrote a great step-by-step <a href="http://blog.insightdatalabs.com/jupyter-on-apache-spark-step-by-step/">intro</a> and gave a great workshop at Insight Labs that I attended.
 
 ### Machine learning and collaborative filtering with Spark: 
 
