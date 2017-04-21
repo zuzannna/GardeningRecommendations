@@ -16,6 +16,8 @@ source of the image: _"Recommendation systems: Principles, methods and evaluatio
 
 Blog posts about collaborative filtering and Alternative Least Squares: 
 
+Andrew Ng's awesome <a href="https://www.coursera.org/learn/machine-learning/home/week/9">intro to recommender systems</a> (part of his ML coursera series)
+
 Ethan Rosenthal's excellent blog post about <a href="http://blog.ethanrosenthal.com/2015/11/02/intro-to-collaborative-filtering/">collaborative filtering</a> and <a href="http://blog.ethanrosenthal.com/2016/01/09/explicit-matrix-factorization-sgd-als/">matrix factorization</a>.
 
 bugra on <a href="http://bugra.github.io/work/notes/2014-04-19/alternating-least-squares-method-for-collaborative-filtering/">Alternating Least Squares</a>.
@@ -23,6 +25,8 @@ bugra on <a href="http://bugra.github.io/work/notes/2014-04-19/alternating-least
 Alex Abate on <a href="http://alexabate.github.io/2016/11/05/movie-lens.html">collaborative filtering</a> - I heavily borrowed from her prediction rating code.
 
 ## Apache Spark
+
+Using Apache Spark makes a lot of sense when we're using iterative algorithms (such as gradient descent or alternative least squares) as it leverages its capacity for caching / persisting (taking a snapshot of the data and iterating only over steps which are unique across iterations).
 
 ### Running Apache Spark with Jupyter Notebook:
 
@@ -50,7 +54,7 @@ http://spark.apache.org/docs/latest/mllib-guide.html
 
 https://spark.apache.org/docs/latest/mllib-collaborative-filtering.html
 
-https://databricks-training.s3.amazonaws.com/movie-recommendation-with-mllib.html
+A great tutorial on recommendations systems and Spark with MovieLens data: https://databricks-training.s3.amazonaws.com/movie-recommendation-with-mllib.html
 
 # Requirements:
 
